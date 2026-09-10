@@ -16,7 +16,7 @@ Foram comparadas duas estimações dos parâmetros de discriminação e dificuld
 
 ## Dados
 
-A análise utilizou respostas dicotômicas de 971 candidatos a 20 itens de uma prova de Matemática aplicada em 2024. A matriz de respostas não é disponibilizada neste repositório, pois os dados foram cedidos mediante autorização institucional para a pesquisa e sua publicação aberta não foi autorizada. Também foram omitidas informações que permitiriam identificar a instituição e os candidatos.
+A análise utilizou respostas dicotômicas de 971 candidatos a 20 itens de uma prova de Matemática aplicada em 2024. A matriz de respostas não é disponibilizada neste repositório, pois a autorização institucional disponível não incluiu permissão expressa para sua divulgação aberta. Também foram omitidas informações que permitiriam identificar a instituição e os candidatos.
 
 ## Procedimento em Python
 
