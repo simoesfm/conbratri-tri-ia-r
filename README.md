@@ -1,6 +1,6 @@
 # Análise psicométrica com IA e R
 
-Este repositório reúne os códigos e as figuras utilizados no estudo **Análise psicométrica com inteligência artificial e R: comparação de estimativas em uma prova de seleção para o 6º ano**.
+Este repositório reúne os códigos, a matriz de respostas anonimizada e as figuras utilizados no estudo **Análise psicométrica com inteligência artificial e R: comparação de estimativas em uma prova de seleção para o 6º ano**.
 
 Foram comparadas duas estimações dos parâmetros de discriminação e dificuldade do modelo logístico de dois parâmetros da Teoria da Resposta ao Item:
 
@@ -9,6 +9,7 @@ Foram comparadas duas estimações dos parâmetros de discriminação e dificuld
 
 ## Arquivos
 
+- `dados/matriz_respostas_2024_anonimizada.xlsx`: matriz dicotômica com 971 respondentes e 20 itens, sem identificadores pessoais, gabarito ou totais;
 - `codigo/analise_tri_python_gpt56sol.py`: código integral efetivamente executado pela IA, preservado sem reformulação;
 - `codigo/analise_tri_mirt.R`: código utilizado para reproduzir a análise no R, calcular o alfa de Cronbach e gerar as curvas dos itens em PDF;
 - `figuras/`: Curvas Características dos Itens 5 e 10 apresentadas no artigo;
@@ -16,7 +17,7 @@ Foram comparadas duas estimações dos parâmetros de discriminação e dificuld
 
 ## Dados
 
-A análise utilizou respostas dicotômicas de 971 candidatos a 20 itens de uma prova de Matemática aplicada em 2024. A matriz de respostas não é disponibilizada neste repositório, pois a autorização institucional disponível não incluiu permissão expressa para sua divulgação aberta. Também foram omitidas informações que permitiriam identificar a instituição e os candidatos.
+A análise utilizou respostas dicotômicas de 971 candidatos a 20 itens de uma prova de Matemática aplicada em 2024. Para favorecer a transparência e a reprodução dos cálculos, o repositório disponibiliza uma cópia anonimizada contendo apenas a matriz 0/1 empregada nas análises. Foram removidos o gabarito, os totais, os metadados de autoria e quaisquer informações que pudessem identificar a instituição ou os candidatos.
 
 ## Procedimento em Python
 
